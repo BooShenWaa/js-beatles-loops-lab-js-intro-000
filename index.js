@@ -11,6 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
+<<<<<<< HEAD
   var i = facts.length - 1;
   while (i >= 0) {
       facts[i] = facts[i] + "!!!";
@@ -30,3 +31,12 @@ function iLoveTheBeatles(num) {
   return array
 
 }
+=======
+  var i = facts.length;
+  while (i > -1) {
+      facts[i] = facts[i] + "!!!";
+    if (i > 0) {i -= 1}
+  }
+  return facts
+}
+>>>>>>> 29db78454154ea39ad24f5d1c2668ba0ca8442c9
